@@ -11,7 +11,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the socket to the server address
 server_socket.bind(server_address)
 
-print('UDP server up and listening')
+print('UDP server up and listening on port 5500')
 
 while True:
     # Wait for a connection
